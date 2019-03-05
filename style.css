@@ -2,7 +2,9 @@ body{
     height: 100%;
     margin: 0;
 }
-
+.carousel{
+    padding-bottom: 116px;
+}
 .navbar-collapse{
     padding-left: 200px ;
 }
@@ -25,6 +27,10 @@ body{
     padding-bottom: 0px;
     padding-left: 1.5em;
     padding-right:0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
 }
 .nav-item{
     padding-left: 30px;
@@ -39,6 +45,40 @@ body{
    
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.big-image{
+    background-image: url(img4.jpg);
+    height: 409px;
+    background-size: cover;
+    width: 761px;
+}
+.small1{
+  background-image: url(img1.jpg);
+    height: 200px;
+    background-size: cover;
+    width: 250px;
+}
+.small2{
+    background-image: url(img3.jpg);
+    height: 200px;
+    background-size: cover;
+    width: 250px;
+}
+.image-vertical{
+  
+    width: 269px;
+  
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.set-image{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
 .img2{
       background-image: url("img2.jpg");
@@ -61,7 +101,7 @@ body{
 }
 .input-box{
    display: flex;
-    background-color:lightskyblue;
+    background-color:transparent;
     
 flex-wrap: wrap;
 justify-content: space-between;
@@ -80,4 +120,54 @@ justify-content: space-between;
 {
     width: 100px;
     height: 55px;
+}
+.wording-arragement{
+   display: flex;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    padding-top: 55px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+
+}
+.wording-arragement > span{
+   width: 25%;
+}
+.slider-back-image{
+    background-image: url("img5.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.slider-back-image-inner{
+    padding-top: 30%;
+    padding-bottom: 30%;
+
+}
+
+.slider-after{
+    height: 500px;
+    
+    display: flex;
+align-items: center;
+    justify-content: space-evenly;
+    padding-top: 59px;
+}
+
+.map{
+    background-image: url("img6.png");
+
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 611px;
+}
+.card{
+    border: none;
+}
+
+.slider-image1{
+background-image: url("img4.jpg");
+height: 200px;
+
+background-size: cover;
 }
