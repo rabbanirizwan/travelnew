@@ -7,10 +7,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="owl.carousel.min.css">
+<link rel="stylesheet" href="owl.theme.default.min.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
-<body>
+
+<body onload="cardSlider()">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -149,130 +152,21 @@
   <div class="slider-back-image-inner">
 
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-sm-12">
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-           
-            <span class="slider-image1"> </span>
-            <div class="card-body">
-              <h4 class="card-title">picture 1
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-
-          <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-             <span class="slider-image1"> </span>
- 
-            <div class="card-body">
-              <h4 class="card-title">picture 2
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-          <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-            <span class="slider-image1"> </span>
- 
-            <div class="card-body">
-              <h4 class="card-title">picture 3
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-         
-      </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-           <span class="slider-image1"> </span>
- 
-            <div class="card-body">
-              <h4 class="card-title">picture 4
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-
-          <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-             <span class="slider-image1"> </span>
- 
-                       <div class="card-body">
-              <h4 class="card-title">picture 5
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-          <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-            <span class="slider-image1"> </span>
- 
-            <div class="card-body">
-              <h4 class="card-title">picture 6
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-         
-      </div>
-      </div>
-    </div>
-   
-   
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
+<div class="wrapper">
+  <div class="owl-carousel owl-theme">
+    <div class="item one slide1"></div>
+    <div class="item two slide1"></div>
+    <div class="item three slide1"></div>
+    <div class="item four slide1"></div>
+    <div class="item five slide1"></div>
+    <div class="item slide1"><h4>6</h4></div>
+    <div class="item slide1"><h4>7</h4></div>
+    <div class="item slide1"><h4>8</h4></div>
+    <div class="item slide1"><h4>9</h4></div>
+    <div class="item slide1"><h4>10</h4></div>
+    
 </div>
 </div>
-</div>
-
 
 
   </div>
@@ -299,137 +193,133 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam consectetuer 
 </div>
 
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-sm-12">
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-           
-            <span class="slider-image1"> </span>
-            <div class="card-body">
-              <h4 class="card-title">picture 1
 
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
 
-         </div>
 
-          <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-             <span class="slider-image1"> </span>
- 
-            <div class="card-body">
-              <h4 class="card-title">picture 2
+<div class="wrapper1">
+  <div class="owl-carousel owl-theme">
+    <div class="item slider-image2"><h4>1</h4></div>
+    <span class="design-for-slider">
+    <div class="item slider-image1"></div>
+    <div class="item slider-image1"></div>
+    </span>
+    <div class="item slider-image2"><h4>4</h4></div>
+    <span class="design-for-slider">
 
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
+    <div class="item slider-image1"><h4>5</h4></div>
+    <div class="item slider-image1"><h4>6</h4></div>
+    </span>
+    <div class="item slider-image2"><h4>7</h4></div>
+   <span class="design-for-slider">
 
-         </div>
-          <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-            <span class="slider-image1"> </span>
- 
-            <div class="card-body">
-              <h4 class="card-title">picture 3
+    <div class="item slider-image1"><h4>8</h4></div>
+    <div class="item slider-image1"><h4>9</h4></div>
+   </span>
+    <div class="item slider-image2"><h4>10</h4></div>
+    
+</div>
+</div>
 
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-         
-      </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-           <span class="slider-image1"> </span>
- 
-            <div class="card-body">
-              <h4 class="card-title">picture 4
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-
-          <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-             <span class="slider-image1"> </span>
- 
-                       <div class="card-body">
-              <h4 class="card-title">picture 5
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-          <div class="col-sm-12 col-lg-4">
-          <div class="card" style="width:300px;">
-            <span class="slider-image1"> </span>
- 
-            <div class="card-body">
-              <h4 class="card-title">picture 6
-
-              </h4> 
-              <p class="card-text">ssdsdsasdaaasdadadadhsdnthis is mu first wesifkdkfk </p>
-        
-            </div>
-           </div>
-
-         </div>
-         
-      </div>
-      </div>
-    </div>
-   
-   
+<div class="slider-back-image1">
+  <div class="slider-back-image-inner1">
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+</div>
+
+<div>
+  <p> meet  the guides</p>
+
+<div class="wrapper">
+  <div class="owl-carousel owl-theme">
+    <div class="item guider-one slide1"></div>
+    <div class="item guider-two slide1"></div>
+    <div class="item guider-three slide1"></div>
+    <div class="item guider-four slide1"></div>
+    <div class="item guider-five slide1"></div>
+    <div class="item slide1"><h4>6</h4></div>
+    <div class="item slide1"><h4>7</h4></div>
+    <div class="item slide1"><h4>8</h4></div>
+    <div class="item slide1"><h4>9</h4></div>
+    <div class="item slide1"><h4>10</h4></div>
+    
+ </div>
+  </div>
+
+
+
+      </div>
+
+
+
+<section class="footer">
+<div class="About-travel">
+  <h4> About travel</h4>
+  <p>this about us what we do</p>
+  <p> 115255559466 </p>
+  <p>travel@gmail.com</p>
+   <span class="icon-arrangement">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    </span>
+   
+</div>
+
+<div class="travel-news">
+  <h4> Travel News</h4>
+  
+  <div class="" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="img1.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body card-body1">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
 </div>
 
 
+ <div class="" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="img2.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body card-body1">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
 </div>
+
+</div>
+
+<div class="top-destinations">
+  <h4> Top Destinations</h4>
+  <p><i class="fas fa-map-marker-alt"></i> abbotabad</p>
+  <p><i class="fas fa-map-marker-alt"></i> muree</p>
+  <p><i class="fas fa-map-marker-alt"></i> Swat</p>
+</div>
+
+<div class="news-letter">
+  <h4> News Letter </h4>
+  <p>sign up to get latest update</p>
+  <div class="input-group input-group-sm mb-3">
+  
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
 </div>
 </div>
 
 
-
-<!--<div class="input-box">
-    <div class="r">1</div>
-    <div class="y">2</div>
-    <div class="g">3</div>
-    <div class="p">4</div>
-     </div>-->
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="owl.carousel.min.js"> </script>
+<script src="script.js">  </script>
 </body>
 </html>

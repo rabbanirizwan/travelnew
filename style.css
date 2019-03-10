@@ -99,9 +99,11 @@ flex-wrap: wrap;
 .form-row{
 
 }
-.input-box{
+.input-box1{
    display: flex;
-    background-color:transparent;
+    background-color:red;
+    width: 250px;
+    height: 50px;
     
 flex-wrap: wrap;
 justify-content: space-between;
@@ -163,6 +165,11 @@ align-items: center;
 }
 .card{
     border: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 350px;
+   
 }
 
 .slider-image1{
@@ -170,4 +177,79 @@ background-image: url("img4.jpg");
 height: 200px;
 
 background-size: cover;
+}
+.wrapper{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.item{
+   
+    
+}
+
+.slide1{
+height:550px;
+}
+.wrapper1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.slider-image2{
+background-image: url("img2.jpg");
+    height: 450px;
+    background-size: cover;
+    width: 380px;
+background-size: cover;
+display: inline-block;
+}
+.owl-carousel{
+    padding: 40px;
+}
+.design-for-slider{
+    height: 450px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.slider-back-image1{
+    background-image: url("img4.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.slider-back-image-inner1{
+    padding-top: 30%;
+    padding-bottom: 30%;
+
+}
+
+.footer{
+      background-color: black;
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0;
+}
+.footer > div{
+    width: 250px;
+   background-color: lightblue;  
+}
+.card-body1{
+    padding: 0px;
+}
+.card-img{
+    height: 87px;
+}
+p{
+    margin: 0px;
 }
