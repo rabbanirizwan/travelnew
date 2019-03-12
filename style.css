@@ -50,8 +50,11 @@ nav{
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
     color: black;
 }
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    color: purple;
+}
 .img1,.img2,.img3{
-    background-image: url("Baltit.png");
+    background-image: url("https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552417005/Skardu.jpg");
     height:900px;
 min-height: 900px;
     background-size: cover;
@@ -64,10 +67,10 @@ min-height: 900px;
 
 
 .img2{
-      background-image: url("Skardu.jpg");
+      background-image: url("https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552417007/s.jpg");
 }
 .img3{
-      background-image: url("s.jpg");
+      background-image: url("https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552417984/Optimized-Baltit_1.jpg");
       width:1100px;
 }
 .from-arrangement{
@@ -184,7 +187,7 @@ height:550px;
 }
 
 .slider-image2{
-background-image: url("Fairy.png");
+background-image: url("https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552418381/Optimized-Fairy.jpg");
     height: 450px;
     background-size: cover;
     width: 380px;
@@ -204,7 +207,7 @@ display: inline-block;
 
 
 .slider-back-image1{
-    background-image: url("pass.png");
+    background-image: url("https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552418203/Optimized-pass.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -274,7 +277,7 @@ font-size: 32px;
     background-color: yellow;
 }
 .select-box{
-    position: absolute;
+    
     top: 360px;
     width: 100%;
     display: flex;
@@ -282,6 +285,14 @@ font-size: 32px;
    
    
 }
+.n{
+    padding-left: 20px;
+    position: absolute;
+    top: 360px;
+    width: 100%;
+    padding-right: 20px;
+}
+
 header{
     position: relative;
 }
@@ -291,20 +302,20 @@ width: 17%;
 }
 
 .big-image{
-    background-image: url(Fairy.png);
+    background-image: url(https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552418203/Optimized-pass.jpg);
     height: 455px;
     background-size: cover;
     width: 600px;    
 }
 .small1{
-  background-image: url(Baltit.png);
+  background-image: url(https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552417054/Atabad_Lake.png);
     height: 226px;
     background-size: cover;
     width: 355px;
     
 }
 .small2{
-    background-image: url(Skardu.jpg);
+    background-image: url(https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552417984/Optimized-Baltit_1.jpg);
     height: 226px;
     background-size: cover;
     width: 355px;
