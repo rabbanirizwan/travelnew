@@ -3,10 +3,12 @@ body{
     margin: 0;
 }
 .carousel{
-    padding-bottom: 116px;
+    /*padding-bottom: 116px;
+    height: 800px;*/
+  
 }
 .navbar-collapse{
-    padding-left: 200px ;
+    /*padding-left: 200px ;*/
 }
 .icon-arrangement{
     display: flex;
@@ -22,75 +24,57 @@ body{
     align-items: center;
     text-transform: uppercase;
 }
-.navbar{
+/*.navbar{
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 1.5em;
     padding-right:0px;
-    position: fixed;
+   /*position: fixed;
     z-index: 1;
     width: 100%;
+    height: 80px;
 
-}
+
+
 .nav-item{
     padding-left: 30px;
     text-transform: uppercase;
     
 }
+*/
+
+nav{
+    background-color:white;
+  
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: black;
+}
 .img1,.img2,.img3{
-    background-image: url("img4.jpg");
-    height: 700px;
+    background-image: url("Baltit.png");
+    height:900px;
+min-height: 900px;
     background-size: cover;
   
-   
+ 
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.big-image{
-    background-image: url(img4.jpg);
-    height: 409px;
-    background-size: cover;
-    width: 761px;
-}
-.small1{
-  background-image: url(img1.jpg);
-    height: 200px;
-    background-size: cover;
-    width: 250px;
-}
-.small2{
-    background-image: url(img3.jpg);
-    height: 200px;
-    background-size: cover;
-    width: 250px;
-}
-.image-vertical{
-  
-    width: 269px;
-  
-    display: flex;
-   
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.set-image{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
+
+
 .img2{
-      background-image: url("img2.jpg");
+      background-image: url("Skardu.jpg");
 }
 .img3{
-      background-image: url("img3.jpg");
+      background-image: url("s.jpg");
       width:1100px;
 }
 .from-arrangement{
     position: absolute;
     top:350px;
-    padding: 150px;
+    padding-left: 35px;
+   
   
    
   
@@ -120,7 +104,7 @@ justify-content: space-between;
 
 .width-controler
 {
-    width: 100px;
+    
     height: 55px;
 }
 .wording-arragement{
@@ -136,7 +120,7 @@ justify-content: space-between;
    width: 25%;
 }
 .slider-back-image{
-    background-image: url("img5.jpg");
+    background-image: url("Passu Cones.png");
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -168,12 +152,12 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     height: 450px;
-    width: 350px;
+    width: 330px;
    
 }
 
 .slider-image1{
-background-image: url("img4.jpg");
+background-image: url("FM2.png");
 height: 200px;
 
 background-size: cover;
@@ -200,7 +184,7 @@ height:550px;
 }
 
 .slider-image2{
-background-image: url("img2.jpg");
+background-image: url("Fairy.png");
     height: 450px;
     background-size: cover;
     width: 380px;
@@ -220,7 +204,7 @@ display: inline-block;
 
 
 .slider-back-image1{
-    background-image: url("img4.jpg");
+    background-image: url("pass.png");
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -235,14 +219,15 @@ display: inline-block;
       background-color: black;
    
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     height: 100%;
     margin: 0;
+    padding: 48px;
 }
 .footer > div{
     width: 250px;
-   background-color: lightblue;  
+  
 }
 .card-body1{
     padding: 0px;
@@ -252,4 +237,135 @@ display: inline-block;
 }
 p{
     margin: 0px;
+}
+.set-form{
+    width: 20%;
+}
+.input-box{
+    display: inherit;
+}
+.big-picture{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+.second-phrase{
+font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Caveat Brush', cursive;
+font-size: 25px;
+line-height: 18px;
+}
+.third-phrase{
+font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Caveat Brush', cursive;
+font-size: 32px;
+    
+}
+
+.set-big-picture-and-second-phrase
+{
+    padding-top: 250px;
+}
+.navbar-toggler-icon{
+    width: 40px;
+    height: 32px;
+    background-color: yellow;
+}
+.select-box{
+    position: absolute;
+    top: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+header{
+    position: relative;
+}
+.inline-select-box{
+    display: inline-block;
+width: 17%;
+}
+
+.big-image{
+    background-image: url(Fairy.png);
+    height: 455px;
+    background-size: cover;
+    width: 600px;    
+}
+.small1{
+  background-image: url(Baltit.png);
+    height: 226px;
+    background-size: cover;
+    width: 355px;
+    
+}
+.small2{
+    background-image: url(Skardu.jpg);
+    height: 226px;
+    background-size: cover;
+    width: 355px;
+    
+}
+.image-vertical{
+  
+    width: 269px;
+  
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.set-image{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding-top: 50px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+ 
+ .set-image{
+     display: block;
+ }
+  .select-box{
+      display: block;
+      padding: 16px;
+
+  }
+  .inline-select-box{
+      display: block;
+      width: 100%;
+  }
+  .img1,.img2,.img3 {
+    height: 1200px;
+  }
+  .big-image{
+      width: 400px;
+  }
+  .card{
+      width: 260px;
+  }
+  .wrapper{
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+ 
+ .set-image{
+     display: block;
+
+}
+.big-image,.small1,.small2,.image-vertical{
+    width: 100%;
+}
+
 }
