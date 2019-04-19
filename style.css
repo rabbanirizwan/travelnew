@@ -2,6 +2,26 @@ body{
     height: 100%;
     margin: 0;
 }
+
+.fixed-top
+{
+    position: sticky !important;
+    top: 0px;
+}
+.black{
+    background-color: #000!important;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 33px;
+}
+.new-one{
+    display: flex;
+   width: 316px;
+    justify-content: space-around;
+    padding-top: 1px;
+
+}
 .carousel{
     /*padding-bottom: 116px;
     height: 800px;*/
@@ -49,9 +69,12 @@ nav{
 }
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
     color: black;
+    border-bottom: 2px solid;
 }
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover{
-    color: purple;
+    color:yellow;
+    border-bottom: 2px yellow solid;
+    size: 20px;
 }
 .img1,.img2,.img3{
     background-image: url("https://res.cloudinary.com/dbrhlbi8f/image/upload/v1552417005/Skardu.jpg");
@@ -127,9 +150,10 @@ justify-content: space-between;
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
+    height: 1000px;
 }
 .slider-back-image-inner{
-    padding-top: 30%;
+    padding-top: 7%;
     padding-bottom: 30%;
 
 }
@@ -249,8 +273,24 @@ p{
 }
 .big-picture{
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 48px;
     color: white;
+}
+.big-picture1{
+
+    font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Caveat Brush', cursive;
+font-size: 35px;
+line-height: 18px;
+}
+
+.phrase{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Caveat Brush', cursive;
+        
 }
 .second-phrase{
 font-family: 'Anton', sans-serif;
@@ -288,7 +328,7 @@ font-size: 32px;
 .n{
     padding-left: 20px;
     position: absolute;
-    top: 360px;
+    top: 490px;
     width: 100%;
     padding-right: 20px;
 }
@@ -339,7 +379,6 @@ padding-top: 50px;
 }
 
 
-
 @media only screen and (max-width: 800px) {
  
  .set-image{
@@ -367,7 +406,60 @@ padding-top: 50px;
       padding-left: 0px;
       padding-right: 0px;
   }
+  .slider-image2{
+    width: 280px;
 }
+}
+
+@media only screen and (max-width: 700px)
+{
+    .slider-image2{
+        width: 260px;
+    }
+    .map{
+        height: 400px;
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .item{
+        padding-left: 65px;
+        
+    }
+    .card{
+        width: 320px;
+    }
+    .card-text{
+        max-width: 200px;
+    }
+    .slider-image2{
+        width: 230px;
+    }
+    .map{
+        height: 400px;
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 550px)
+{
+    .slider-image2{
+        width: 360px;
+    }
+}
+@media only screen and (max-width: 450px)
+{
+    .item{
+        padding-left: 0px;
+        
+    }
+    .card{
+        width: 320px;
+    }
+}
+
 
 @media only screen and (max-width: 1000px) {
  
